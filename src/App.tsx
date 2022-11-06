@@ -1,8 +1,9 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
 
-function App() {
+export const App: React.FC = () => {
 	const [message, setMessage] = useState('');
 
 	useEffect(() => {
